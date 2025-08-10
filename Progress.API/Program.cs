@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Progress.API.Context;
+using Progress.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
