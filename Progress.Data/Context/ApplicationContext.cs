@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Progress.API.Context
+namespace Progress.Data.Context
 {
     public class ApplicationContext : DbContext
     {
