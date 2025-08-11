@@ -13,7 +13,7 @@ namespace Progress.Application.Interfaces
         Task<List<ProgressEntity>> FindAll();
         Task<ProgressEntity> FindById(Guid id);
         Task Save(ProgressRequest progressRequest);
-        Task Update(ProgressRequest progressRequest);
+        Task Update(Guid id, ProgressRequest progressRequest);
         Task Delete(Guid id);
     }
 }
